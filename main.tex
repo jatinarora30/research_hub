@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{fancyhdr}
+
+\input{macros}
+
+\title{\textbf{Research Hub}}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\input{sections/00_dashboard}
+\input{sections/01_todo}
+\input{sections/02_notes_index}
+\input{sections/03_literature_index}
+\input{sections/04_ideas_index}
+\input{sections/05_math_index}
+\input{sections/06_experiments_index}
+\input{sections/07_logs_index}
+\input{sections/08_drafts_index}
+
+\bibliographystyle{plain}
+\bibliography{refs/library}
+
+\end{document}

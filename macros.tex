@@ -1,0 +1,14 @@
+\definecolor{myblue}{RGB}{30,90,160}
+\definecolor{mygreen}{RGB}{40,120,70}
+\definecolor{myorange}{RGB}{200,120,20}
+\definecolor{myred}{RGB}{170,50,50}
+
+\newtcolorbox{idea}[1]{colframe=mygreen,title=#1}
+\newtcolorbox{paper}[1]{colframe=myblue,title=#1}
+\newtcolorbox{experiment}[1]{colframe=myred,title=#1}
+\newtcolorbox{mathbox}[1]{colframe=myorange,title=#1}
+
+\newcommand{\status}[1]{\textbf{Status:} #1}
+\newcommand{\nextstep}[1]{\textbf{Next:} #1}
+\newcommand{\motivation}[1]{\textbf{Motivation:} #1}
+\newcommand{\result}[1]{\textbf{Result:} #1}
